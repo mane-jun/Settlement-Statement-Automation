@@ -1,0 +1,9 @@
+# 윈도우 전용 프로그램입니다.
+# 특히 .bat 은 줄바꿈이 LF 로 바뀌면 cmd 가 제대로 읽지 못하므로 CRLF 로 고정합니다.
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+*.txt  text eol=crlf
+*.md   text eol=crlf
+
+*.xlsx binary
+*.xls  binary
